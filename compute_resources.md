@@ -47,3 +47,15 @@ During the biohackathon
 * We will share the slides used for the training
 * We will be on the biohackathon Slack at #tech-helpdesk and Gitter at
   https://gitter.im/arvados/community to answer questions
+  
+## ELIXIR-GREECE Cloud Infractructure (EGCI, https://schema.imsi.athenarc.gr/)
+
+The Greek node of ELIXIR make available its computational resources (provided by its EGCI Cloud infrastructure) for the needs of the biohackathon participants. The only requirement is that the software should be in the form of Docker container images. 
+
+### How?
+
+Access to the infrastructure is done using any valid ELIXIR-AAI account. Hackathon participants, can create new "On-demand computation" projects (https://egci-beta.imsi.athenarc.gr/) mentioning in the project description the connection to the biohackathon. Then, they will be able to upload the desired data sets and container images to perform the desired analysis. The container images should be accompanied with a CWL file describing the required input files and parameters. 
+
+### Having questions or requests?
+
+Please contact Thanasis Vergoulis (vergoulis@athenarc.gr).
